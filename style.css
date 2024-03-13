@@ -1,0 +1,90 @@
+* {
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+.preview-card-container {
+  width: 384px;
+  height: 565px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0px 0px #000;
+  padding: 1.2rem;
+  margin: 3rem auto;
+}
+
+.foundations-title h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  transition: color 0.2s ease-in;
+}
+
+.foundations-title:hover {
+  color: #f4d04e;
+}
+
+.preview-card-img img {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+p {
+  color: #7f7f7f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.date-text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+h5 {
+  padding: 0rem 1.3rem;
+  text-align: left;
+}
+
+#learning-block {
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  border-radius: 4px;
+  width: 90px;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon h4 {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 500px) {
+  #preview-card-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .preview-card-img img {
+    width: 100%;
+  }
+}
